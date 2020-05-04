@@ -1,0 +1,41 @@
+{
+    "Fast Tk Create": {
+        "prefix": "ftc"
+		"body": [
+            "${1:Enter Tk Name} = Tk()"
+			"$1.title('${2:Name This Window}')"
+			""
+			"$0"
+			""
+			"$1.mainloop()"
+        ],
+        "description": "Fast Window Creation"
+    }
+
+	"Fast Label Create": {
+        "prefix": "flc"
+		"body": [
+            "${1:Name Your Label} = Label(${2:Which window},text='${3:Enter Your Text}')"
+			"$1.grid(row = ${4:Which Row}, column = ${5:Which column})"
+        ]
+		"description": "Fast Label Creation"
+    }
+
+	"Fast Entry Create": {
+        "prefix": "fec"
+		"body": [
+            "${1:Name Your Entry} = Entry(${2:Which window})"
+			"$1.grid(row = ${3:Which Row}, column = ${4:Which column})"
+        ]
+		"description": "Fast Entry Creation"
+    }
+
+	"Fast Button Create": {
+        "prefix": "fbc"
+		"body": [
+            "${1:Name Your Button} = Button(${2:Which window},text='${3:Enter Your Text}',command=${4:Which Command})"
+			"$1.grid(row = ${5:Which Row}, column = ${6:Which column})"
+        ]
+		"description": "Fast Button Creation"
+    }
+}
