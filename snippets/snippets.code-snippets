@@ -1,52 +1,47 @@
 {
     "Fast Tk Create": {
         "prefix": "ftc",
-		"body": [
+        "body": [
             "${1:Enter Tk Name} = Tk()",
-			"$1.title('${2:Name This Window}')",
-			"",
-			"$0",
-			"",
-			"$1.mainloop()"
+            "$1.title('${2:Name This Window}')",
+            "",
+            "$0",
+            "",
+            "$1.mainloop()"
         ],
         "description": "Fast Window Creation"
     },
-
-	"Fast Label Create": {
+    "Fast Label Create": {
         "prefix": "flc",
-		"body": [
-            "${1:Name Your Label} = Label(${2:Which Window},text = '${3:Enter Your Text}')",
-			"$1.grid(row = ${4:Which Row}, column = ${5:Which Column})"
+        "body": [
+            "${1:Name Your Label} = Label(${2:Which Window}, text = '${3:Enter Your Text}')",
+            "$1.grid(row = ${4:Which Row}, column = ${5:Which Column})"
         ],
-		"description": "Fast Label Creation"
+        "description": "Fast Label Creation"
     },
-
-	"Fast Entry Create": {
+    "Fast Entry Create": {
         "prefix": "fec",
-		"body": [
+        "body": [
             "${1:Name Your Entry} = Entry(${2:Which Window})",
-			"$1.grid(row = ${3:Which Row}, column = ${4:Which Column})"
+            "$1.grid(row = ${3:Which Row}, column = ${4:Which Column})"
         ],
-		"description": "Fast Entry Creation"
+        "description": "Fast Entry Creation"
     },
-
-	"Fast Button Create": {
+    "Fast Button Create": {
         "prefix": "fbc",
-		"body": [
-            "${1:Name Your Button} = Button(${2:Which Window},text = '${3:Enter Your Text}',command = ${4:Which Command})",
-			"$1.grid(row = ${5:Which Row}, column = ${6:Which Column})"
+        "body": [
+            "${1:Name Your Button} = Button(${2:Which Window}, text = '${3:Enter Your Text}', command = ${4:Which Command})",
+            "$1.grid(row = ${5:Which Row}, column = ${6:Which Column})"
         ],
-		"description": "Fast Button Creation"
+        "description": "Fast Button Creation"
     },
-
     "No Var Label Create": {
         "prefix": "nvflc",
-		"body": [
-            "Label(${1:Which Window},text = '${2:Enter Your Text}').grid(row = ${3:Which Row}, column = ${4:Which Column})"
+        "body": [
+            "Label(${1:Which Window}, text = '${2:Enter Your Text}').grid(row = ${3:Which Row}, column = ${4:Which Column})"
         ],
         "description": "No Variable Label Creation"
     },
-
     "No Var Entry Create": {
         "prefix": "nvfec",
         "body": [
@@ -54,43 +49,38 @@
         ],
         "description": "No Variable Entry Creation"
     },
-
     "No Var Button Create": {
         "prefix": "nvfbc",
         "body": [
-            "Button(${1:Which Window},text = '${2:Enter Your Text}', command = ${3:Enter Command}).grid(row = ${4:Which Row}, column = ${5:Which Column})"
+            "Button(${1:Which Window}, text = '${2:Enter Your Text}', command = ${3:Enter Command}).grid(row = ${4:Which Row}, column = ${5:Which Column})"
         ],
         "description": "No Variable Button Creation"
     },
-
     "Basic Tk Create": {
         "prefix": "bftc",
-		"body": [
+        "body": [
             "${1:Enter Tk Name} = Tk()",
-			"",
-			"$0",
-			"",
-			"$1.mainloop()"
+            "",
+            "$0",
+            "",
+            "$1.mainloop()"
         ],
         "description": "Basic Window Creation"
     },
-
     "Basic Label Create": {
         "prefix": "bflc",
-		"body": [
+        "body": [
             "${1:Name Your Label} = Label(${2:Which Window})",
         ],
-		"description": "Basic Label Creation"
+        "description": "Basic Label Creation"
     },
-
     "Basic Entry Create": {
         "prefix": "bfec",
-		"body": [
+        "body": [
             "${1:Name Your Entry} = Entry(${2:Which Window})",
         ],
-		"description": "Basic Entry Creation"
+        "description": "Basic Entry Creation"
     },
-
     "Basic Button Create": {
         "prefix": "bfbc",
         "body": [
@@ -98,12 +88,56 @@
         ],
         "description": "Basic Button Creation"
     },
-
     "Fast Tk Import": {
         "prefix": "tki",
         "body": [
             "from tkinter import *"
         ],
         "description": "Fast Tkinter Import"
+    },
+    "X Button Create": {
+        "prefix": "xfbc",
+        "body": [
+            "${1:Name Your Button} = Button(${2:Which Window})",
+            "$1.grid(row = ${3:Which Row}, column = ${4:Which Column})"
+        ],
+        "description": "X Button Creation"
+    },
+    "X No Var Button Create": {
+        "prefix": "xnvfbc",
+        "body": [
+            "Button(${1:Which Window}).grid(row = ${2:Which Row}, column = ${3:Which Column})"
+        ],
+        "description": "X No Variable Button Creation"
+    },
+    "X Fast Label Create": {
+        "prefix": "xflc",
+        "body": [
+            "${1:Name Your Label} = Label(${2:Which Window})",
+            "$1.grid(row = ${3:Which Row}, column = ${4:Which Column})"
+        ],
+        "description": "X Label Creation"
+    },
+    "X No Var Label Create": {
+        "prefix": "xnvflc",
+        "body": [
+            "Label(${1:Which Window}).grid(row = ${2:Which Row}, column = ${3:Which Column})"
+        ],
+        "description": "No Variable Label Creation"
+    },
+    "No Command Button Create": {
+        "prefix": "ncfbc",
+        "body": [
+            "${1:Name Your Button} = Button(${2:Which Window}, text = '${3:Enter Your Text}')",
+            "$1.grid(row = ${4:Which Row}, column = ${5:Which Column})"
+        ],
+        "description": "No Command Label Creation"
+    },
+    "No Command No Variable Button Create": {
+        "prefix": "ncnvfbc",
+        "body": [
+            "Button(${1:Which Window}, text = '${2:Enter Your Text}').grid(row = ${3:Which Row}, column = ${4:Which Column})"
+        ],
+        "description": "No Variable Button Creation"
     }
 }

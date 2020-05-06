@@ -1,18 +1,21 @@
 # Change Log
 
+## [v0.0.4]
+
+- Added 6 new snippets (xflc, xfbc, xnvflc, xnvfbc, ncfbc, ncnvfbc)
+- Added 2 new snippet types (x and nc)
+
 ## [v0.0.3]
 
 - Added 5 new snippets (bftc, bflc, bfec, bfbc, tki)
-- Added a new basic snippet type and renamed old basic to regular
-- Cleaned up marketplace page
+- Added 1 new snippet type (b)
+- Renamed original basic snippet type to regular
 
 ## [v0.0.2]
 
-- Added 3 new snippets (nvflc, nvfec, nvfbc).
+- Added 3 new snippets (nvflc, nvfec, nvfbc)
 - Separated snippets by types
-- Added nv snippet type
-- Updated marketplace page to show more info and examples
-- Added extension icon
+- Added 1 new snippet type (nv)
 
 
 ## [v0.0.1]

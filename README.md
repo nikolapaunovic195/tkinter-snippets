@@ -1,14 +1,14 @@
 # Features
 
-This extension adds tkinter snippets to VS Code. There are currently 7 snippets in this pack, however I will be adding more.
+This extension adds tkinter snippets to VS Code.
 
-For list of snippets look at the bottom of the page
+New snippets are added with each version.
+
+For list of snippets look at the bottom of the page.
 
 # Usage
 
 To use these snippets simply type a snippet into your editor and press tab. There will be fields you have to fill out, such as position, text etc. To fill this info out simply start typing. Once you fill in a field press tab to move on to the next field.
-
-There are currently two types of snippets. For info on what each type means look at the section below
 
 # Snippet types
 
@@ -40,6 +40,27 @@ If you put b before the regular snippet, you get an element with only the prompt
 
 ![](images/bfbcexample.png)
 
+
+## X snippets
+
+prefix: **x**
+
+If you put x before the regulart snippet or the nv snippet, you get an element with only an attribute for setting the window and the grid positioning. X snippets are not available for all elements.
+
+### Example:
+
+![](images/xsnippetexample.png)
+
+## No command snippets
+
+prefix: **nc**
+
+If you put nc before a regular or a nv snippet, you get an element without a command attribute. This prefix can only be used for some elements (example: buttons).
+
+### Example:
+
+![](images/ncfbcncnvfbcexample.png)
+
 # List of snippets
 
 ## Regular snippets
@@ -69,6 +90,22 @@ If you put b before the regular snippet, you get an element with only the prompt
 **bfec** - creates a new basic entry
 
 **bfbc** - creates a new basic button
+
+## x snippets
+
+**xflc** - creates a new x label
+
+**xfbc** - creates a new x button
+
+**xnvflc** - creates a new no variable x label
+
+**xnvfbc** - creates a new no variable x button
+
+## nc snippets
+
+**ncfbc** - creates a button without a command attribute
+
+**ncnvfbc** - creates a button without a command attribute and without a variable
 
 ## Other snippets
 
