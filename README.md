@@ -12,21 +12,37 @@ There are currently two types of snippets. For info on what each type means look
 
 # Snippet types
 
-## Basic snippet
+## Regular snippets
 
 Lets you type in the name of the variable for your element, as well as some basic info usually used with the element.
 
+### Example:
+
 ![](images/flcexample.png)
 
-## nv snippet
+## No variable snippets
 
-If you put nv before the normal basic snippet, you will get an element without a variable. This are not always recommended however they are useful sometimes.
+prefix: **nv** 
+
+If you put nv before the regular snippet, you get an element without a variable. These are not always recommended however they are useful sometimes.
+
+### Example:
 
 ![](images/nvflcexample.png)
 
+## Basic snippets
+
+prefix: **b**
+
+If you put b before the regular snippet, you get an element with only the prompt for a variable name and window selection.
+
+### Example:
+
+![](images/bfbcexample.png)
+
 # List of snippets
 
-## Basic snippets
+## Regular snippets
 
 **ftc** - creates a new tkinter window
 
@@ -43,3 +59,17 @@ If you put nv before the normal basic snippet, you will get an element without a
 **nvfec** - creates a new entry without using a variable
 
 **nvfbc** - creates a new button without using a variable
+
+## b snippets *(basic)*
+
+**bftc** - creates a new basic tkinter window
+
+**bflc** - creates a new basic label
+
+**bfec** - creates a new basic entry
+
+**bfbc** - creates a new basic button
+
+## Other snippets
+
+**tki** - from tkinter import *
