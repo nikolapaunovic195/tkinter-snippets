@@ -1,5 +1,10 @@
 # Change Log
 
+## [v0.0.5]
+
+- Added 5 new snippets (fcbc, nvfcbc, bfcbc, xfcbc, xnvfcbc)
+- Added support for checkbutton elements.
+
 ## [v0.0.4]
 
 - Added 6 new snippets (xflc, xfbc, xnvflc, xnvfbc, ncfbc, ncnvfbc)

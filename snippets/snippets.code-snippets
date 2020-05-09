@@ -139,5 +139,42 @@
             "Button(${1:Which Window}, text = '${2:Enter Your Text}').grid(row = ${3:Which Row}, column = ${4:Which Column})"
         ],
         "description": "No Variable Button Creation"
-    }
+    },
+    "Fast Checkbutton Create": {
+        "prefix": "fcbc",
+        "body": [
+            "${1:Name Your Checkbutton} = Checkbutton(${2:Which Window}, text = '${3:Enter Your Text}', variable = ${4:Which Variable})",
+            "$1.grid(row = ${5:Which Row}, column = ${6:Which Column})"
+        ],
+        "description": "Fast Checkbutton Creation"
+    },
+    "No Var Checkbutton Create": {
+        "prefix": "nvfcbc",
+        "body": [
+            "Checkbutton(${1:Which Window}, text = '${2:Enter Your Text}', variable = ${3:Enter Variable}).grid(row = ${4:Which Row}, column = ${5:Which Column})"
+        ],
+        "description": "No Variable Checkbutton Creation"
+    },
+    "X Checkbutton Create": {
+        "prefix": "xfcbc",
+        "body": [
+            "${1:Name Your Checkbutton} = Checkbutton(${2:Which Window})",
+            "$1.grid(row = ${3:Which Row}, column = ${4:Which Column})"
+        ],
+        "description": "X Checkbutton Creation"
+    },
+    "X No Var Checkbutton Create": {
+        "prefix": "xnvfcbc",
+        "body": [
+            "Checkbutton(${1:Which Window}).grid(row = ${2:Which Row}, column = ${3:Which Column})"
+        ],
+        "description": "X No Variable Checkbutton Creation"
+    },
+    "Basic Checkbutton Create": {
+        "prefix": "bfcbc",
+        "body": [
+            "${1:Name Your Checkbutton} = Checkbutton(${2:Which Window})"
+        ],
+        "description": "Basic Checkbutton Creation"
+    },
 }
