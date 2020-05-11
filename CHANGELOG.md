@@ -1,9 +1,15 @@
 # Change Log
 
+## [v0.0.6]
+
+- Added 5 new snippets (frbc, nvfrbc, bfrbc, xfrbc, xnvfrbc)
+- Added support for radiobutton elements
+- Updated extension icon
+
 ## [v0.0.5]
 
 - Added 5 new snippets (fcbc, nvfcbc, bfcbc, xfcbc, xnvfcbc)
-- Added support for checkbutton elements.
+- Added support for checkbutton elements
 
 ## [v0.0.4]
 

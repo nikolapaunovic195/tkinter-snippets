@@ -177,4 +177,41 @@
         ],
         "description": "Basic Checkbutton Creation"
     },
+    "Fast Radiobutton Create": {
+        "prefix": "frbc",
+        "body": [
+            "${1:Name Your Radiobutton} = Radiobutton(${2:Which Window}, text = '${3:Enter Your Text}', variable = ${4:Which Variable}, value = ${5:Enter Value})",
+            "$1.grid(row = ${6:Which Row}, column = ${7:Which Column})"
+        ],
+        "description": "Fast Radiobutton Creation"
+    },
+    "No Var Radiobutton Create": {
+        "prefix": "nvfrbc",
+        "body": [
+            "Radiobutton(${1:Which Window}, text = '${2:Enter Your Text}', variable = ${3:Enter Variable}, value = ${4:Enter Value}).grid(row = ${5:Which Row}, column = ${6:Which Column})"
+        ],
+        "description": "No Variable Radiobutton Creation"
+    },
+    "X Radiobutton Create": {
+        "prefix": "xfrbc",
+        "body": [
+            "${1:Name Your Radiobutton} = Radiobutton(${2:Which Window})",
+            "$1.grid(row = ${3:Which Row}, column = ${4:Which Column})"
+        ],
+        "description": "X Radiobutton Creation"
+    },
+    "X No Var Radiobutton Create": {
+        "prefix": "xnvfrbc",
+        "body": [
+            "Radiobutton(${1:Which Window}).grid(row = ${2:Which Row}, column = ${3:Which Column})"
+        ],
+        "description": "X No Variable Radiobutton Creation"
+    },
+    "Basic Radiokbutton Create": {
+        "prefix": "bfrbc",
+        "body": [
+            "${1:Name Your Radiobutton} = Radiobutton(${2:Which Window})"
+        ],
+        "description": "Basic Radiobutton Creation"
+    },
 }

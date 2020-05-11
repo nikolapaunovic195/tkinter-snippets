@@ -75,6 +75,8 @@ If you put nc before a regular or a nv snippet, you get an element without a com
 
 **fcbc** - creates a new checkbutton
 
+**frbc** - creates a new radiobutton
+
 ## nv snippets *(no variable)*
 
 **nvflc** - creates a new label without using a variable
@@ -84,6 +86,8 @@ If you put nc before a regular or a nv snippet, you get an element without a com
 **nvfbc** - creates a new button without using a variable
 
 **nvfcbc** - creates a new checkbutton without a variable (variable atribute is still in the definition of the checkbutton)
+
+**nvfrbc** - creates a new radiobutton without a variable (variable atribute is still in the definition of the radiobutton)
 
 ## b snippets *(basic)*
 
@@ -96,6 +100,8 @@ If you put nc before a regular or a nv snippet, you get an element without a com
 **bfbc** - creates a new basic button
 
 **bfcbc** - creates a new basic checkbutton
+
+**bfrbc** - creates a new basic radiobutton
 
 ## x snippets
 
@@ -110,6 +116,10 @@ If you put nc before a regular or a nv snippet, you get an element without a com
 **xfcbc** - creates a new x checkbutton
 
 **xnvfcbc** - creates a new no variable x checkbutton
+
+**xfrbc** - creates a new x radiobutton
+
+**xnvfrbc** - creates a new no variable x radiobutton
 
 ## nc snippets
 
