@@ -207,11 +207,34 @@
         ],
         "description": "X No Variable Radiobutton Creation"
     },
-    "Basic Radiokbutton Create": {
+    "Basic Radiobutton Create": {
         "prefix": "bfrbc",
         "body": [
             "${1:Name Your Radiobutton} = Radiobutton(${2:Which Window})"
         ],
         "description": "Basic Radiobutton Creation"
     },
+    "Fast Frame Create": {
+        "prefix": "ffc",
+        "body": [
+            "${1:Name Your Frame} = LabelFrame(${2:Which Window}, text = '${4:Enter Your Text}')",
+            "${1:Name Your Frame}.grid(row = ${5:Which Row}, column = ${6:Which Column})"
+        ],
+        "description": "Fast Frame Creation"
+    },
+    "X Frame Create": {
+        "prefix": "xffc",
+        "body": [
+            "${1:Name Your Frame} = LabelFrame(${2:Which Window})",
+            "$1.grid(row = ${3:Which Row}, column = ${4:Which Column})"
+        ],
+        "description": "X Frame Creation"
+    },
+    "Basic Frame Create": {
+        "prefix": "bffc",
+        "body": [
+            "${1:Name Your Frame} = LabelFrame(${2:Which Window})"
+        ],
+        "description": "Basic Frame Creation"
+    }
 }

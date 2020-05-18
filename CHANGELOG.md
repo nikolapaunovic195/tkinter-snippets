@@ -1,5 +1,10 @@
 # Change Log
 
+## [v0.0.7]
+
+- Added 3 new snippets (ffc, bffc, xffc)
+- Added support for frame elements
+
 ## [v0.0.6]
 
 - Added 5 new snippets (frbc, nvfrbc, bfrbc, xfrbc, xnvfrbc)

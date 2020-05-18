@@ -14,7 +14,7 @@ To use these snippets simply type a snippet into your editor and press tab. Ther
 
 ## Regular snippets
 
-Lets you type in the name of the variable for your element, as well as some basic info usually used with the element.
+Regular snippets create elements with their most used parameters.
 
 ### Example:
 
@@ -24,7 +24,7 @@ Lets you type in the name of the variable for your element, as well as some basi
 
 prefix: **nv** 
 
-If you put nv before the regular snippet, you get an element without a variable. These are not always recommended however they are useful sometimes.
+Putting nv before the regular snippet creates an element without assigning it to a variable. These are not always recommended, however they are useful sometimes.
 
 ### Example:
 
@@ -34,7 +34,7 @@ If you put nv before the regular snippet, you get an element without a variable.
 
 prefix: **b**
 
-If you put b before the regular snippet, you get an element with only the prompt for a variable name and window selection.
+Putting b before the regular snippet creates an element with only the prompt for a variable name and window selection.
 
 ### Example:
 
@@ -45,7 +45,7 @@ If you put b before the regular snippet, you get an element with only the prompt
 
 prefix: **x**
 
-If you put x before the regulart snippet or the nv snippet, you get an element with only an attribute for setting the window and the grid positioning. X snippets are not available for all elements.
+Putting x before the regular snippet or the nv snippet creates an element with only the prompt for setting the window and the grid positioning. X snippets are not available for all elements.
 
 ### Example:
 
@@ -55,7 +55,7 @@ If you put x before the regulart snippet or the nv snippet, you get an element w
 
 prefix: **nc**
 
-If you put nc before a regular or a nv snippet, you get an element without a command attribute. This prefix can only be used for some elements (example: buttons).
+Putting nc befoe a regular or a nv snippet creates an element without a command parameter. This prefix can only be used for some elements (example: buttons).
 
 ### Example:
 
@@ -76,6 +76,8 @@ If you put nc before a regular or a nv snippet, you get an element without a com
 **fcbc** - creates a new checkbutton
 
 **frbc** - creates a new radiobutton
+
+**ffc** - creates a new frame
 
 ## nv snippets *(no variable)*
 
@@ -103,6 +105,8 @@ If you put nc before a regular or a nv snippet, you get an element without a com
 
 **bfrbc** - creates a new basic radiobutton
 
+**bffc** - creates a new basic frame
+
 ## x snippets
 
 **xflc** - creates a new x label
@@ -120,6 +124,8 @@ If you put nc before a regular or a nv snippet, you get an element without a com
 **xfrbc** - creates a new x radiobutton
 
 **xnvfrbc** - creates a new no variable x radiobutton
+
+**xffc** - creates a new x frame
 
 ## nc snippets
 
