@@ -1,5 +1,11 @@
 # Change Log
 
+## [v0.1.0]
+
+- Added 7 new snippets (fomc, nvfomc, xfomc, xnvfomc, bfomc, ftlc, bftlc)
+- Added support for optionmenu elements
+- Added support for toplevel elements
+
 ## [v0.0.7]
 
 - Added 3 new snippets (ffc, bffc, xffc)

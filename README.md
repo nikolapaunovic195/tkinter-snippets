@@ -79,6 +79,10 @@ Putting nc befoe a regular or a nv snippet creates an element without a command 
 
 **ffc** - creates a new frame
 
+**fomc** - creates a new optionmenu
+
+**ftlc** - creates a new toplevel
+
 ## nv snippets *(no variable)*
 
 **nvflc** - creates a new label without using a variable
@@ -90,6 +94,8 @@ Putting nc befoe a regular or a nv snippet creates an element without a command 
 **nvfcbc** - creates a new checkbutton without a variable (variable atribute is still in the definition of the checkbutton)
 
 **nvfrbc** - creates a new radiobutton without a variable (variable atribute is still in the definition of the radiobutton)
+
+**nvfomc** - creates a new optionmenu without a variable (variable atribute is still in the definition of the optionmenu)
 
 ## b snippets *(basic)*
 
@@ -106,6 +112,10 @@ Putting nc befoe a regular or a nv snippet creates an element without a command 
 **bfrbc** - creates a new basic radiobutton
 
 **bffc** - creates a new basic frame
+
+**bfomc** - creates a new basic optionmenu
+
+**bftlc** - creates a new basic toplevel
 
 ## x snippets
 
@@ -126,6 +136,10 @@ Putting nc befoe a regular or a nv snippet creates an element without a command 
 **xnvfrbc** - creates a new no variable x radiobutton
 
 **xffc** - creates a new x frame
+
+**xfomc** - creates a new x optionmenu
+
+**xnvfomc** - creates a new no variable x optionmenu
 
 ## nc snippets
 

@@ -1,5 +1,5 @@
 {
-    "Fast Tk Create": {
+    "Fast Tk Creation": {
         "prefix": "ftc",
         "body": [
             "${1:Enter Tk Name} = Tk()",
@@ -11,7 +11,7 @@
         ],
         "description": "Fast Window Creation"
     },
-    "Fast Label Create": {
+    "Fast Label Creation": {
         "prefix": "flc",
         "body": [
             "${1:Name Your Label} = Label(${2:Which Window}, text = '${3:Enter Your Text}')",
@@ -19,7 +19,7 @@
         ],
         "description": "Fast Label Creation"
     },
-    "Fast Entry Create": {
+    "Fast Entry Creation": {
         "prefix": "fec",
         "body": [
             "${1:Name Your Entry} = Entry(${2:Which Window})",
@@ -27,7 +27,7 @@
         ],
         "description": "Fast Entry Creation"
     },
-    "Fast Button Create": {
+    "Fast Button Creation": {
         "prefix": "fbc",
         "body": [
             "${1:Name Your Button} = Button(${2:Which Window}, text = '${3:Enter Your Text}', command = ${4:Which Command})",
@@ -35,28 +35,28 @@
         ],
         "description": "Fast Button Creation"
     },
-    "No Var Label Create": {
+    "No Var Label Creation": {
         "prefix": "nvflc",
         "body": [
             "Label(${1:Which Window}, text = '${2:Enter Your Text}').grid(row = ${3:Which Row}, column = ${4:Which Column})"
         ],
         "description": "No Variable Label Creation"
     },
-    "No Var Entry Create": {
+    "No Var Entry Creation": {
         "prefix": "nvfec",
         "body": [
             "Entry(${1:Which Window}).grid(row = ${2:Which Row}, column = ${3:Which Column})"
         ],
         "description": "No Variable Entry Creation"
     },
-    "No Var Button Create": {
+    "No Var Button Creation": {
         "prefix": "nvfbc",
         "body": [
             "Button(${1:Which Window}, text = '${2:Enter Your Text}', command = ${3:Enter Command}).grid(row = ${4:Which Row}, column = ${5:Which Column})"
         ],
         "description": "No Variable Button Creation"
     },
-    "Basic Tk Create": {
+    "Basic Tk Creation": {
         "prefix": "bftc",
         "body": [
             "${1:Enter Tk Name} = Tk()",
@@ -67,21 +67,21 @@
         ],
         "description": "Basic Window Creation"
     },
-    "Basic Label Create": {
+    "Basic Label Creation": {
         "prefix": "bflc",
         "body": [
             "${1:Name Your Label} = Label(${2:Which Window})",
         ],
         "description": "Basic Label Creation"
     },
-    "Basic Entry Create": {
+    "Basic Entry Creation": {
         "prefix": "bfec",
         "body": [
             "${1:Name Your Entry} = Entry(${2:Which Window})",
         ],
         "description": "Basic Entry Creation"
     },
-    "Basic Button Create": {
+    "Basic Button Creation": {
         "prefix": "bfbc",
         "body": [
             "${1:Name Your Button} = Button(${2:Which Window})"
@@ -95,7 +95,7 @@
         ],
         "description": "Fast Tkinter Import"
     },
-    "X Button Create": {
+    "X Button Creation": {
         "prefix": "xfbc",
         "body": [
             "${1:Name Your Button} = Button(${2:Which Window})",
@@ -103,14 +103,14 @@
         ],
         "description": "X Button Creation"
     },
-    "X No Var Button Create": {
+    "X No Var Button Creation": {
         "prefix": "xnvfbc",
         "body": [
             "Button(${1:Which Window}).grid(row = ${2:Which Row}, column = ${3:Which Column})"
         ],
         "description": "X No Variable Button Creation"
     },
-    "X Fast Label Create": {
+    "X Fast Label Creation": {
         "prefix": "xflc",
         "body": [
             "${1:Name Your Label} = Label(${2:Which Window})",
@@ -118,14 +118,14 @@
         ],
         "description": "X Label Creation"
     },
-    "X No Var Label Create": {
+    "X No Var Label Creation": {
         "prefix": "xnvflc",
         "body": [
             "Label(${1:Which Window}).grid(row = ${2:Which Row}, column = ${3:Which Column})"
         ],
-        "description": "No Variable Label Creation"
+        "description": "X No Variable Label Creation"
     },
-    "No Command Button Create": {
+    "No Command Button Creation": {
         "prefix": "ncfbc",
         "body": [
             "${1:Name Your Button} = Button(${2:Which Window}, text = '${3:Enter Your Text}')",
@@ -133,14 +133,14 @@
         ],
         "description": "No Command Label Creation"
     },
-    "No Command No Variable Button Create": {
+    "No Command No Variable Button Creation": {
         "prefix": "ncnvfbc",
         "body": [
             "Button(${1:Which Window}, text = '${2:Enter Your Text}').grid(row = ${3:Which Row}, column = ${4:Which Column})"
         ],
         "description": "No Variable Button Creation"
     },
-    "Fast Checkbutton Create": {
+    "Fast Checkbutton Creation": {
         "prefix": "fcbc",
         "body": [
             "${1:Name Your Checkbutton} = Checkbutton(${2:Which Window}, text = '${3:Enter Your Text}', variable = ${4:Which Variable})",
@@ -148,14 +148,14 @@
         ],
         "description": "Fast Checkbutton Creation"
     },
-    "No Var Checkbutton Create": {
+    "No Var Checkbutton Creation": {
         "prefix": "nvfcbc",
         "body": [
             "Checkbutton(${1:Which Window}, text = '${2:Enter Your Text}', variable = ${3:Enter Variable}).grid(row = ${4:Which Row}, column = ${5:Which Column})"
         ],
         "description": "No Variable Checkbutton Creation"
     },
-    "X Checkbutton Create": {
+    "X Checkbutton Creation": {
         "prefix": "xfcbc",
         "body": [
             "${1:Name Your Checkbutton} = Checkbutton(${2:Which Window})",
@@ -163,21 +163,21 @@
         ],
         "description": "X Checkbutton Creation"
     },
-    "X No Var Checkbutton Create": {
+    "X No Var Checkbutton Creation": {
         "prefix": "xnvfcbc",
         "body": [
             "Checkbutton(${1:Which Window}).grid(row = ${2:Which Row}, column = ${3:Which Column})"
         ],
         "description": "X No Variable Checkbutton Creation"
     },
-    "Basic Checkbutton Create": {
+    "Basic Checkbutton Creation": {
         "prefix": "bfcbc",
         "body": [
             "${1:Name Your Checkbutton} = Checkbutton(${2:Which Window})"
         ],
         "description": "Basic Checkbutton Creation"
     },
-    "Fast Radiobutton Create": {
+    "Fast Radiobutton Creation": {
         "prefix": "frbc",
         "body": [
             "${1:Name Your Radiobutton} = Radiobutton(${2:Which Window}, text = '${3:Enter Your Text}', variable = ${4:Which Variable}, value = ${5:Enter Value})",
@@ -185,14 +185,14 @@
         ],
         "description": "Fast Radiobutton Creation"
     },
-    "No Var Radiobutton Create": {
+    "No Var Radiobutton Creation": {
         "prefix": "nvfrbc",
         "body": [
             "Radiobutton(${1:Which Window}, text = '${2:Enter Your Text}', variable = ${3:Enter Variable}, value = ${4:Enter Value}).grid(row = ${5:Which Row}, column = ${6:Which Column})"
         ],
         "description": "No Variable Radiobutton Creation"
     },
-    "X Radiobutton Create": {
+    "X Radiobutton Creation": {
         "prefix": "xfrbc",
         "body": [
             "${1:Name Your Radiobutton} = Radiobutton(${2:Which Window})",
@@ -200,21 +200,21 @@
         ],
         "description": "X Radiobutton Creation"
     },
-    "X No Var Radiobutton Create": {
+    "X No Var Radiobutton Creation": {
         "prefix": "xnvfrbc",
         "body": [
             "Radiobutton(${1:Which Window}).grid(row = ${2:Which Row}, column = ${3:Which Column})"
         ],
         "description": "X No Variable Radiobutton Creation"
     },
-    "Basic Radiobutton Create": {
+    "Basic Radiobutton Creation": {
         "prefix": "bfrbc",
         "body": [
             "${1:Name Your Radiobutton} = Radiobutton(${2:Which Window})"
         ],
         "description": "Basic Radiobutton Creation"
     },
-    "Fast Frame Create": {
+    "Fast Frame Creation": {
         "prefix": "ffc",
         "body": [
             "${1:Name Your Frame} = LabelFrame(${2:Which Window}, text = '${4:Enter Your Text}')",
@@ -222,7 +222,7 @@
         ],
         "description": "Fast Frame Creation"
     },
-    "X Frame Create": {
+    "X Frame Creation": {
         "prefix": "xffc",
         "body": [
             "${1:Name Your Frame} = LabelFrame(${2:Which Window})",
@@ -230,11 +230,63 @@
         ],
         "description": "X Frame Creation"
     },
-    "Basic Frame Create": {
+    "Basic Frame Creation": {
         "prefix": "bffc",
         "body": [
             "${1:Name Your Frame} = LabelFrame(${2:Which Window})"
         ],
         "description": "Basic Frame Creation"
+    },
+    "Fast OptionMenu Creation": {
+        "prefix": "fomc",
+        "body": [
+            "${1:Name Your OptionMenu} = OptionMenu(${2:Which Window}, ${3:Which Variable}, ${4:Enter List})",
+            "${1:Name Your OptionMenu}.grid(row = ${5:Which Row}, column = ${6:Which Column})"
+        ],
+        "description": "Fast OptionMenu Creation"
+    },
+    "No Var OptionMenu Creation": {
+        "prefix": "nvfomc",
+        "body": [
+            "OptionMenu(${1:Which Window}, ${2:Which Variable}, ${3:Enter List}).grid(row = ${4:Which Row}, column = ${5:Which Column})"
+        ],
+        "description": "No Variable OptionMenu Creation"
+    },
+    "X OptionMenu Creation": {
+        "prefix": "Xfomc",
+        "body": [
+            "${1:Name Your OptionMenu} = OptionMenu(${2:Which Window})",
+            "$1.grid(row = ${3:Which Row}, column = ${4:Which Column})"
+        ],
+        "description": "X OptionMenu Creation"
+    },
+    "X No Var OptionMenu Creation": {
+        "prefix": "xnvfomc",
+        "body": [
+            "OptionMenu(${1:Which Window}).grid(row = ${2:Which Row}, column = ${3:Which Column})"
+        ],
+        "description": "X No Variable OptionMenu Creation"
+    },
+    "Basic OptionMenu Creation": {
+        "prefix": "bfomc",
+        "body": [
+            "${1:Name Your OptionMenu} = OptionMenu(${2:Which Window})"
+        ],
+        "description": "Basic OptionMenu Creation"
+    },
+    "Fast Toplevel Creation": {
+        "prefix": "ftlc",
+        "body": [
+            "${1:Name Your Toplevel} = Toplevel()",
+            "${1:Name Your Toplevel}.title('${2:Enter Title}')"
+        ],
+        "description": "Fast Toplevel Creation"
+    },
+    "Basic Toplevel Creation": {
+        "prefix": "bftlc",
+        "body": [
+            "${1:Name Your Toplevel} = Toplevel()"
+        ],
+        "description": "Basic Toplevel Creation"
     }
 }
