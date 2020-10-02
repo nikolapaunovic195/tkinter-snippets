@@ -1,9 +1,5 @@
 # Features
 
-This extension adds tkinter snippets to VS Code.
-
-New snippets are added with each version.
-
 For list of snippets look at the bottom of the page.
 
 # Usage
@@ -150,3 +146,11 @@ Putting nc befoe a regular or a nv snippet creates an element without a command 
 ## Other snippets
 
 **tki** - from tkinter import *
+
+**mbi** - imports the messagebox module from tkinter
+
+# Note
+
+I think the extension has reached a point where most of the features I can think of are included. I might add new snippets here and there as I find the cases where they might be used. For any feature requests, please use the Q&A section on the VS Code Marketplace or github. Leaving a review is also highly appreciated, and I will also try to fulfill any feature requests from there.
+
+Thank you once again for using this extension!

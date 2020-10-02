@@ -1,5 +1,10 @@
 # Change Log
 
+## [v1.0.0]
+
+- Added 1 new snippet (mbi)
+- Rewritten all descriptions to be more user-friendly
+
 ## [v0.1.0]
 
 - Added 7 new snippets (fomc, nvfomc, xfomc, xnvfomc, bfomc, ftlc, bftlc)

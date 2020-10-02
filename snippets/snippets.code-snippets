@@ -9,52 +9,52 @@
             "",
             "$1.mainloop()"
         ],
-        "description": "Fast Window Creation"
+        "description": "Creates a window"
     },
     "Fast Label Creation": {
         "prefix": "flc",
         "body": [
-            "${1:Name Your Label} = Label(${2:Which Window}, text = '${3:Enter Your Text}')",
+            "${1:Name The Label} = Label(${2:Which Window}, text = '${3:Enter The Text}')",
             "$1.grid(row = ${4:Which Row}, column = ${5:Which Column})"
         ],
-        "description": "Fast Label Creation"
+        "description": "Creates a label"
     },
     "Fast Entry Creation": {
         "prefix": "fec",
         "body": [
-            "${1:Name Your Entry} = Entry(${2:Which Window})",
+            "${1:Name The Entry} = Entry(${2:Which Window})",
             "$1.grid(row = ${3:Which Row}, column = ${4:Which Column})"
         ],
-        "description": "Fast Entry Creation"
+        "description": "Creates an entry"
     },
     "Fast Button Creation": {
         "prefix": "fbc",
         "body": [
-            "${1:Name Your Button} = Button(${2:Which Window}, text = '${3:Enter Your Text}', command = ${4:Which Command})",
+            "${1:Name The Button} = Button(${2:Which Window}, text = '${3:Enter The Text}', command = ${4:Which Command})",
             "$1.grid(row = ${5:Which Row}, column = ${6:Which Column})"
         ],
-        "description": "Fast Button Creation"
+        "description": "Creates a button"
     },
     "No Var Label Creation": {
         "prefix": "nvflc",
         "body": [
-            "Label(${1:Which Window}, text = '${2:Enter Your Text}').grid(row = ${3:Which Row}, column = ${4:Which Column})"
+            "Label(${1:Which Window}, text = '${2:Enter The Text}').grid(row = ${3:Which Row}, column = ${4:Which Column})"
         ],
-        "description": "No Variable Label Creation"
+        "description": "Creates a label without a variable"
     },
     "No Var Entry Creation": {
         "prefix": "nvfec",
         "body": [
             "Entry(${1:Which Window}).grid(row = ${2:Which Row}, column = ${3:Which Column})"
         ],
-        "description": "No Variable Entry Creation"
+        "description": "Creates an entry without a variable"
     },
     "No Var Button Creation": {
         "prefix": "nvfbc",
         "body": [
-            "Button(${1:Which Window}, text = '${2:Enter Your Text}', command = ${3:Enter Command}).grid(row = ${4:Which Row}, column = ${5:Which Column})"
+            "Button(${1:Which Window}, text = '${2:Enter The Text}', command = ${3:Enter Command}).grid(row = ${4:Which Row}, column = ${5:Which Column})"
         ],
-        "description": "No Variable Button Creation"
+        "description": "Creates a button without a variable"
     },
     "Basic Tk Creation": {
         "prefix": "bftc",
@@ -65,228 +65,235 @@
             "",
             "$1.mainloop()"
         ],
-        "description": "Basic Window Creation"
+        "description": "Creates a basic window"
     },
     "Basic Label Creation": {
         "prefix": "bflc",
         "body": [
-            "${1:Name Your Label} = Label(${2:Which Window})",
+            "${1:Name The Label} = Label(${2:Which Window})",
         ],
-        "description": "Basic Label Creation"
+        "description": "Creates a basic label"
     },
     "Basic Entry Creation": {
         "prefix": "bfec",
         "body": [
-            "${1:Name Your Entry} = Entry(${2:Which Window})",
+            "${1:Name The Entry} = Entry(${2:Which Window})",
         ],
-        "description": "Basic Entry Creation"
+        "description": "Creates a basic entry"
     },
     "Basic Button Creation": {
         "prefix": "bfbc",
         "body": [
-            "${1:Name Your Button} = Button(${2:Which Window})"
+            "${1:Name The Button} = Button(${2:Which Window})"
         ],
-        "description": "Basic Button Creation"
+        "description": "Creates a basic button"
     },
     "Fast Tk Import": {
         "prefix": "tki",
         "body": [
             "from tkinter import *"
         ],
-        "description": "Fast Tkinter Import"
+        "description": "Imports tkinter"
     },
     "X Button Creation": {
         "prefix": "xfbc",
         "body": [
-            "${1:Name Your Button} = Button(${2:Which Window})",
+            "${1:Name The Button} = Button(${2:Which Window})",
             "$1.grid(row = ${3:Which Row}, column = ${4:Which Column})"
         ],
-        "description": "X Button Creation"
+        "description": "Creates an X button"
     },
     "X No Var Button Creation": {
         "prefix": "xnvfbc",
         "body": [
             "Button(${1:Which Window}).grid(row = ${2:Which Row}, column = ${3:Which Column})"
         ],
-        "description": "X No Variable Button Creation"
+        "description": "Creates an X button without a variable"
     },
     "X Fast Label Creation": {
         "prefix": "xflc",
         "body": [
-            "${1:Name Your Label} = Label(${2:Which Window})",
+            "${1:Name The Label} = Label(${2:Which Window})",
             "$1.grid(row = ${3:Which Row}, column = ${4:Which Column})"
         ],
-        "description": "X Label Creation"
+        "description": "Creates an X label"
     },
     "X No Var Label Creation": {
         "prefix": "xnvflc",
         "body": [
             "Label(${1:Which Window}).grid(row = ${2:Which Row}, column = ${3:Which Column})"
         ],
-        "description": "X No Variable Label Creation"
+        "description": "Creates an X label without a variable"
     },
     "No Command Button Creation": {
         "prefix": "ncfbc",
         "body": [
-            "${1:Name Your Button} = Button(${2:Which Window}, text = '${3:Enter Your Text}')",
+            "${1:Name The Button} = Button(${2:Which Window}, text = '${3:Enter The Text}')",
             "$1.grid(row = ${4:Which Row}, column = ${5:Which Column})"
         ],
-        "description": "No Command Label Creation"
+        "description": "NCreates a button without the command parameter"
     },
     "No Command No Variable Button Creation": {
         "prefix": "ncnvfbc",
         "body": [
-            "Button(${1:Which Window}, text = '${2:Enter Your Text}').grid(row = ${3:Which Row}, column = ${4:Which Column})"
+            "Button(${1:Which Window}, text = '${2:Enter The Text}').grid(row = ${3:Which Row}, column = ${4:Which Column})"
         ],
-        "description": "No Variable Button Creation"
+        "description": "Creates a button without a command and without a variable"
     },
     "Fast Checkbutton Creation": {
         "prefix": "fcbc",
         "body": [
-            "${1:Name Your Checkbutton} = Checkbutton(${2:Which Window}, text = '${3:Enter Your Text}', variable = ${4:Which Variable})",
+            "${1:Name The Checkbutton} = Checkbutton(${2:Which Window}, text = '${3:Enter The Text}', variable = ${4:Which Variable})",
             "$1.grid(row = ${5:Which Row}, column = ${6:Which Column})"
         ],
-        "description": "Fast Checkbutton Creation"
+        "description": "Creates a checkbutton"
     },
     "No Var Checkbutton Creation": {
         "prefix": "nvfcbc",
         "body": [
-            "Checkbutton(${1:Which Window}, text = '${2:Enter Your Text}', variable = ${3:Enter Variable}).grid(row = ${4:Which Row}, column = ${5:Which Column})"
+            "Checkbutton(${1:Which Window}, text = '${2:Enter The Text}', variable = ${3:Enter Variable}).grid(row = ${4:Which Row}, column = ${5:Which Column})"
         ],
-        "description": "No Variable Checkbutton Creation"
+        "description": "Creates a checkbutton without a variable"
     },
     "X Checkbutton Creation": {
         "prefix": "xfcbc",
         "body": [
-            "${1:Name Your Checkbutton} = Checkbutton(${2:Which Window})",
+            "${1:Name The Checkbutton} = Checkbutton(${2:Which Window})",
             "$1.grid(row = ${3:Which Row}, column = ${4:Which Column})"
         ],
-        "description": "X Checkbutton Creation"
+        "description": "Creates an X checkbutton"
     },
     "X No Var Checkbutton Creation": {
         "prefix": "xnvfcbc",
         "body": [
             "Checkbutton(${1:Which Window}).grid(row = ${2:Which Row}, column = ${3:Which Column})"
         ],
-        "description": "X No Variable Checkbutton Creation"
+        "description": "Creates an X checkbutton without a variable"
     },
     "Basic Checkbutton Creation": {
         "prefix": "bfcbc",
         "body": [
-            "${1:Name Your Checkbutton} = Checkbutton(${2:Which Window})"
+            "${1:Name The Checkbutton} = Checkbutton(${2:Which Window})"
         ],
-        "description": "Basic Checkbutton Creation"
+        "description": "Creates a basic checkbutton"
     },
     "Fast Radiobutton Creation": {
         "prefix": "frbc",
         "body": [
-            "${1:Name Your Radiobutton} = Radiobutton(${2:Which Window}, text = '${3:Enter Your Text}', variable = ${4:Which Variable}, value = ${5:Enter Value})",
+            "${1:Name The Radiobutton} = Radiobutton(${2:Which Window}, text = '${3:Enter The Text}', variable = ${4:Which Variable}, value = ${5:Enter Value})",
             "$1.grid(row = ${6:Which Row}, column = ${7:Which Column})"
         ],
-        "description": "Fast Radiobutton Creation"
+        "description": "Creates a radiobutton"
     },
     "No Var Radiobutton Creation": {
         "prefix": "nvfrbc",
         "body": [
-            "Radiobutton(${1:Which Window}, text = '${2:Enter Your Text}', variable = ${3:Enter Variable}, value = ${4:Enter Value}).grid(row = ${5:Which Row}, column = ${6:Which Column})"
+            "Radiobutton(${1:Which Window}, text = '${2:Enter The Text}', variable = ${3:Enter Variable}, value = ${4:Enter Value}).grid(row = ${5:Which Row}, column = ${6:Which Column})"
         ],
-        "description": "No Variable Radiobutton Creation"
+        "description": "Creates a radiobutton without a variable"
     },
     "X Radiobutton Creation": {
         "prefix": "xfrbc",
         "body": [
-            "${1:Name Your Radiobutton} = Radiobutton(${2:Which Window})",
+            "${1:Name The Radiobutton} = Radiobutton(${2:Which Window})",
             "$1.grid(row = ${3:Which Row}, column = ${4:Which Column})"
         ],
-        "description": "X Radiobutton Creation"
+        "description": "Creates an X radiobutton"
     },
     "X No Var Radiobutton Creation": {
         "prefix": "xnvfrbc",
         "body": [
             "Radiobutton(${1:Which Window}).grid(row = ${2:Which Row}, column = ${3:Which Column})"
         ],
-        "description": "X No Variable Radiobutton Creation"
+        "description": "Creates an X radiobutton without a variable"
     },
     "Basic Radiobutton Creation": {
         "prefix": "bfrbc",
         "body": [
-            "${1:Name Your Radiobutton} = Radiobutton(${2:Which Window})"
+            "${1:Name The Radiobutton} = Radiobutton(${2:Which Window})"
         ],
-        "description": "Basic Radiobutton Creation"
+        "description": "Creates a basic radiobutton"
     },
     "Fast Frame Creation": {
         "prefix": "ffc",
         "body": [
-            "${1:Name Your Frame} = LabelFrame(${2:Which Window}, text = '${4:Enter Your Text}')",
-            "${1:Name Your Frame}.grid(row = ${5:Which Row}, column = ${6:Which Column})"
+            "${1:Name The Frame} = LabelFrame(${2:Which Window}, text = '${4:Enter The Text}')",
+            "${1:Name The Frame}.grid(row = ${5:Which Row}, column = ${6:Which Column})"
         ],
-        "description": "Fast Frame Creation"
+        "description": "Creates a frame"
     },
     "X Frame Creation": {
         "prefix": "xffc",
         "body": [
-            "${1:Name Your Frame} = LabelFrame(${2:Which Window})",
+            "${1:Name The Frame} = LabelFrame(${2:Which Window})",
             "$1.grid(row = ${3:Which Row}, column = ${4:Which Column})"
         ],
-        "description": "X Frame Creation"
+        "description": "Creates an X frame"
     },
     "Basic Frame Creation": {
         "prefix": "bffc",
         "body": [
-            "${1:Name Your Frame} = LabelFrame(${2:Which Window})"
+            "${1:Name The Frame} = LabelFrame(${2:Which Window})"
         ],
-        "description": "Basic Frame Creation"
+        "description": "Creates a basic frame"
     },
     "Fast OptionMenu Creation": {
         "prefix": "fomc",
         "body": [
-            "${1:Name Your OptionMenu} = OptionMenu(${2:Which Window}, ${3:Which Variable}, ${4:Enter List})",
-            "${1:Name Your OptionMenu}.grid(row = ${5:Which Row}, column = ${6:Which Column})"
+            "${1:Name The OptionMenu} = OptionMenu(${2:Which Window}, ${3:Which Variable}, ${4:Enter List})",
+            "${1:Name The OptionMenu}.grid(row = ${5:Which Row}, column = ${6:Which Column})"
         ],
-        "description": "Fast OptionMenu Creation"
+        "description": "Creates an optionmenu"
     },
     "No Var OptionMenu Creation": {
         "prefix": "nvfomc",
         "body": [
             "OptionMenu(${1:Which Window}, ${2:Which Variable}, ${3:Enter List}).grid(row = ${4:Which Row}, column = ${5:Which Column})"
         ],
-        "description": "No Variable OptionMenu Creation"
+        "description": "Creates an optionmenu without a variable"
     },
     "X OptionMenu Creation": {
         "prefix": "Xfomc",
         "body": [
-            "${1:Name Your OptionMenu} = OptionMenu(${2:Which Window})",
+            "${1:Name The OptionMenu} = OptionMenu(${2:Which Window})",
             "$1.grid(row = ${3:Which Row}, column = ${4:Which Column})"
         ],
-        "description": "X OptionMenu Creation"
+        "description": "Creates an X optionmenu"
     },
     "X No Var OptionMenu Creation": {
         "prefix": "xnvfomc",
         "body": [
             "OptionMenu(${1:Which Window}).grid(row = ${2:Which Row}, column = ${3:Which Column})"
         ],
-        "description": "X No Variable OptionMenu Creation"
+        "description": "Creates an X optionmenu without a variable"
     },
     "Basic OptionMenu Creation": {
         "prefix": "bfomc",
         "body": [
-            "${1:Name Your OptionMenu} = OptionMenu(${2:Which Window})"
+            "${1:Name The OptionMenu} = OptionMenu(${2:Which Window})"
         ],
-        "description": "Basic OptionMenu Creation"
+        "description": "Creates a basic optionmenu"
     },
     "Fast Toplevel Creation": {
         "prefix": "ftlc",
         "body": [
-            "${1:Name Your Toplevel} = Toplevel()",
-            "${1:Name Your Toplevel}.title('${2:Enter Title}')"
+            "${1:Name The Toplevel} = Toplevel()",
+            "${1:Name The Toplevel}.title('${2:Enter Title}')"
         ],
-        "description": "Fast Toplevel Creation"
+        "description": "Creates a toplevel"
     },
     "Basic Toplevel Creation": {
         "prefix": "bftlc",
         "body": [
-            "${1:Name Your Toplevel} = Toplevel()"
+            "${1:Name The Toplevel} = Toplevel()"
         ],
-        "description": "Basic Toplevel Creation"
+        "description": "Creates a basic toplevel"
+    },
+    "Fast Messagebox Import": {
+        "prefix": "mbi",
+        "body": [
+            "from tkinter import messagebox"
+        ],
+        "description": "Imports messagebox functions"
     }
 }
