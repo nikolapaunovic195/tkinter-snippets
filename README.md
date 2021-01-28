@@ -1,6 +1,6 @@
 # Features
 
-For list of snippets look at the bottom of the page.
+For list of snippets look at the bottom of the page. Also please read the "Note on snippet variety" for more details on how to use the snippets if you use different methods of importing tkinter.
 
 # Usage
 
@@ -58,6 +58,12 @@ Putting nc befoe a regular or a nv snippet creates an element without a command 
 ![](images/ncfbcncnvfbcexample.png)
 
 # List of snippets
+
+## Note on snippet variety
+
+As of update 2.0.0, all snippets have another form where you add the at- prefix. This pefix assumes you have used "import tkinter as tk" rather than "from tkinter import *" and adds tk. before every call to the tkinter module.
+
+---
 
 ## Regular snippets
 
@@ -151,6 +157,6 @@ Putting nc befoe a regular or a nv snippet creates an element without a command 
 
 # Note
 
-I think the extension has reached a point where most of the features I can think of are included. I might add new snippets here and there as I find the cases where they might be used. For any feature requests, please use the Q&A section on the VS Code Marketplace or github. Leaving a review is also highly appreciated, and I will also try to fulfill any feature requests from there.
+I am planning on doing another big update for the extension, however, the date is uncertain for now. I hope I can release it soon enough.
 
 Thank you once again for using this extension!

@@ -1,5 +1,11 @@
 # Change Log
 
+## [v2.0.0]
+
+- Added 38 new snippets
+- Added support for different ways of importing tkinter (at- prefix)
+- Fixed an issue where one of the snippets required a capital letter to be used
+
 ## [v1.0.0]
 
 - Added 1 new snippet (mbi)
