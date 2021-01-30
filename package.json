@@ -4,7 +4,7 @@
     "description": "Snippet pack for Tkinter module of Python.",
     "publisher": "NikolaPaunovic",
     "repository": "https://github.com/lunaluvgood/tkinter-snippets",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "icon": "icon/icon.png",
     "engines": {
         "vscode": "^1.44.0"

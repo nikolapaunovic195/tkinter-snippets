@@ -1,5 +1,9 @@
 # Change Log
 
+## [v2.0.1]
+
+- README updated
+
 ## [v2.0.0]
 
 - Added 38 new snippets
