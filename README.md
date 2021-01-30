@@ -2,15 +2,16 @@
 
 For list of snippets look at the bottom of the page. Also please read the "Note on snippet variety" for more details on how to use the snippets if you use different methods of importing tkinter.
 
-# Usage
-
-To use these snippets simply type a snippet into your editor and press tab. There will be fields you have to fill out, such as position, text etc. To fill this info out simply start typing. Once you fill in a field press tab to move on to the next field.
-
 # Donations
 
 If you like the extension, you can help me with my college expenses.
 
 [![Donate](https://img.shields.io/badge/donate-paypal-brightgreen.svg)](https://paypal.me/np195)
+
+# Usage
+
+To use these snippets simply type a snippet into your editor and press tab. There will be fields you have to fill out, such as position, text etc. To fill this info out simply start typing. Once you fill in a field press tab to move on to the next field.
+
 
 # Snippet types
 
